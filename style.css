@@ -1,0 +1,61 @@
+.matrix-dimension {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0 70px 0;
+}
+
+.column-block {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.matrix-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.matrix-body input, .find-number-box input, .matrix-dimension input{
+    padding: 13px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 30px 12px #0052E01A;
+    width: 30px;
+    margin: 5px;
+    font-size: 15px;
+}
+
+.find-number-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.find-number-box .find-number, #dimension {
+    margin: 20px;
+}
+
+.find-number-box button, .matrix-dimension button {
+    width: 200px;
+    cursor: pointer;
+    background-color: #a9c8e0;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+
+}
+
+.matrix-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.matrix-heading small {
+    color: rgb(245, 5, 5);
+}

@@ -1,0 +1,38 @@
+  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Compare Sum</title>
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="matrix-dimension">
+        <h2 class="text-center">Insert the matrix dimension</h2>
+        <form id="dimension">
+            Row<input name="row" type="text">
+            Column<input name="column" type="text">
+        </form>
+        <button onclick="onSubmitDimension()" class="btn btn-default submit">Submit Dimension</button>
+    </div>
+
+    <div class="matrix-heading" style="display: none;">
+        <h2>Please insert the elements of matrix</h2>
+        <small>Note: Please take into account that any 
+        element must be unique, and the next element must 
+        be greater than its previous element</small>
+    </div>
+
+    <div class="matrix-body"></div>
+
+    <div class="find-number-box" style="display: none;">
+        <h3>Find the index of number</h3>
+        <input class="find-number" type="text" name="number">
+        <button type="button" onclick="onSubmitFind()">Find</button>
+    </div>
+
+</body>
+</html>
